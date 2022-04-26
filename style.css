@@ -1,0 +1,48 @@
+*{
+    box-sizing:border-box;  
+  } 
+  
+html, body{
+    height:100%;
+    background-color: #151e33;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.contenedor{
+      max-width: 650px;
+      text-align: center;
+  }
+
+  .contenido{
+    max-width: 600px;
+    height: auto;
+    border: 1px solid white;
+  }
+
+.display{
+      background-color: black;
+      border-radius: 15px;
+      margin: 10px;
+      height: 150px;
+      width: auto;
+      display: flex;
+      justify-content: end;
+      align-items: flex-end;
+      padding: 0 20px 20px 0;
+  }
+
+.botonPadre{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 5px;
+      margin: 10px;
+  }
+.item1{
+    grid-column: 1 /span 2;
+}
+.item2{
+  grid-column: 1 /span 3;
+}
