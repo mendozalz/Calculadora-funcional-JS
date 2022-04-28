@@ -52,7 +52,7 @@ function result(resultado) {
             case "suma":
                 $display.textContent = num1 + num2;
                 break;
-            case "rest":
+            case "resta":
                 $display.textContent = num1 - num2;
                 break;
             case "multiplica":
@@ -72,6 +72,7 @@ function result(resultado) {
     } else {
         getResult(num1, operando)
     }
+    operandoNum = true // para que despues de darle al btn de igualdad este reinicie los valores de números pulsados
 }
 
 
